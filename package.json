@@ -9,7 +9,7 @@
     "url": "git://github.com/genehallman/node-apt-repo.git"
   },
   "scripts": {
-    "start": "node ./lib/apt-repo",
+    "start": "node-dev ./lib/apt-repo"
     "test": "./node_modules/.bin/mocha --ui exports tests/*.test.js --reporter spec"
   },
   "dependencies": {
